@@ -12,6 +12,7 @@ const InputBase = styled.input`
   border-radius: ${({ theme }) => theme.colors.boderRadius};
   outline: 0;
   margin-bottom: 25px;
+  margin-top: 15px
 `;
 
 export default function Input({ onChange, placeholder, ...props }) {
